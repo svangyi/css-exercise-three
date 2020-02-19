@@ -1,67 +1,75 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
-  font-size: 10px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 400px;
-  background-color: black
+  font-size: 12px;
 }
 
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
-  position: fixed;
   width: 420px;
-}
-
-.restaurant-list {
-  padding-top: 10%;
+  background-color: #0000;
 }
 
 h1 {
-  font-size: 2em;
-  font-weight: bold;
-  margin: 0;
-  text-align: left;
-  height: 25px;
+   font-size: 1.5em;
+   font-weight:900;
+   line-height: 120%;
 }
 
-h3 {
-  font-size: 1.17em;
+h3{
+  font-size: 1.2em;
+  line-height: 140%;
+
 }
-
-
-
-.box1 {
-  background-color: #aaa;
-  border-top: 2px solid #lightgrey;
-  border-right: 5px solid #lightgrey; /* counts toward width */
-  border-bottom: 2px solid #lightgrey;
-  border-left: 5px solid #lightgrey; /* counts toward width */
-  margin-top: .5px;
-  margin-right: .5px; /* counts toward width */
-  margin-bottom: .5px;
-  margin-left: .5px; /* counts toward width */
+.arrow{
+  display: inline-block;
   padding-top: 15px;
-  padding-right: 20px; /* counts toward width */
-  padding-bottom: 15px;
-  padding-left: 20px; /* counts toward width */
-  width: 400px; /* counts toward width */
-  box-sizing: border-box;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  float: right;
+
 }
 
-div {
+.arrow-left{
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+  background-color:black;
+}
+
+.content {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 8px;
+  padding-bottom:15px;
   display: inline-block;
 }
 
-.pull-left {
-  float: left;
+
+.location {
+  background-color: #DEDEDE;
+  border: 1px solid #0000;
+  margin: 1px;
+  padding: 1px;
+  width: 420px;
+
 }
 
-.pull-right {
-  float: right;
-  padding-top: 10px;
+.location:hover {background-color: #959b97;
+  } /* mouse over */
+
+}
+
+.restaurant-list {
+  padding-top: 50px;
+  width:200%;
 }
