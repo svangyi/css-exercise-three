@@ -6,7 +6,8 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 420px;
+  width: 400px;
+  background-color: black
 }
 
 nav {
@@ -17,5 +18,50 @@ nav {
 }
 
 .restaurant-list {
-  padding-top: 50px;
+  padding-top: 10%;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+  height: 25px;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+
+
+.box1 {
+  background-color: #aaa;
+  border-top: 2px solid #lightgrey;
+  border-right: 5px solid #lightgrey; /* counts toward width */
+  border-bottom: 2px solid #lightgrey;
+  border-left: 5px solid #lightgrey; /* counts toward width */
+  margin-top: .5px;
+  margin-right: .5px; /* counts toward width */
+  margin-bottom: .5px;
+  margin-left: .5px; /* counts toward width */
+  padding-top: 15px;
+  padding-right: 20px; /* counts toward width */
+  padding-bottom: 15px;
+  padding-left: 20px; /* counts toward width */
+  width: 400px; /* counts toward width */
+  box-sizing: border-box;
+}
+
+div {
+  display: inline-block;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+  padding-top: 10px;
 }
